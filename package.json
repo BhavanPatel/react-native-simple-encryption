@@ -1,6 +1,6 @@
 {
   "name": "react-native-simple-encryption",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Simple XOR and base_64 encryption decryption for react-native",
   "main": "index.js",
   "scripts": {
