@@ -22,5 +22,5 @@ encode('key123', 'Hello World');
 ...
 
 // decode('key','encrypted_data');
-encode('key123', 'IwAVXV0TPAoLXVYS');
+decode('key123', 'IwAVXV0TPAoLXVYS');
 ```

@@ -15,7 +15,7 @@
     "react-native",
     "ios",
     "android",
-    "base63 xor",
+    "base64 xor",
     "decode",
     "secure",
     "encode",
