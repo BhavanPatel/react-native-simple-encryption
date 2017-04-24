@@ -1,5 +1,5 @@
 # react-native-simple-encryption
-[![NPM version](http://img.shields.io/npm/v/count-lines-in-file.svg?style=flat-square)](https://www.npmjs.com/package/react-native-simple-encryption)
+[![NPM version](https://img.shields.io/npm/v/react-native-simple-encryption.svg?style=flat-square)](https://www.npmjs.com/package/react-native-simple-encryption)
 
 Simple XOR and base_64 encryption decryption for react-native
 
