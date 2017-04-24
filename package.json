@@ -1,0 +1,30 @@
+{
+  "name": "react-native-simple-encryption",
+  "version": "0.0.1",
+  "description": "Simple XOR and base_64 encryption decryption for react-native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BhavanPatel/react-native-simple-encryption.git"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "base63 xor",
+    "decode",
+    "secure",
+    "encode",
+    "encryption"
+  ],
+  "author": "Bhavan Patel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BhavanPatel/react-native-simple-encryption/issues"
+  },
+  "homepage": "https://github.com/BhavanPatel/react-native-simple-encryption#readme"
+}
