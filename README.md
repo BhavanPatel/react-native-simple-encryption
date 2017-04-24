@@ -9,11 +9,16 @@ npm install react-native-simple-encryption --save
 Sample usage
 ```javascript
 ...
+
 import { encode, decode } from 'react-native-simple-encryption';
+
 ...
+
 // encode('key','data_to_be_encrypt');
 encode('key123', 'Hello World');
+
 ...
+
 // decode('key','encrypted_data');
 encode('key123', 'IwAVXV0TPAoLXVYS');
 ```
