@@ -50,14 +50,14 @@ class Main extends Component {
         <Button block danger onPress={this._doEnc.bind(this)}
           style={
             {
-              paddingBottom: 10,
+              marginBottom: 5,
             }}>
           <Text >Do Encryption</Text>
         </Button>
         <Button block success onPress={this._doDec.bind(this)}
           style={
             {
-              paddingBottom: 10,
+              marginTop: 5,
             }}>
           <Text >Do Decryption</Text>
         </Button>
