@@ -1,27 +1,65 @@
-import React, {Component} from 'react';
-import {Image, View} from 'react-native';
+import React, { Component } from 'react';
+import { Image, View } from 'react-native';
 import {
   Text,
-  Button
+  Button,
+  Label
 } from 'native-base';
-import {encode,decode} from 'react-native-simple-encryption';
+import { encode, decode } from 'react-native-simple-encryption';
 
+let enc = null;
+let dec = null;
 class Main extends Component {
-
-  _doEncDec() {
-    let enc = encode('key123','Hello World');
-    console.log("Encrypted:",enc);
-
-    let dec = decode('key123',enc);
-    console.log("Decrypted:",dec);
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: 'Hello World!',
+    };
   }
 
+  _doEnc() {
+    enc = encode('key123', this.state.data);
+    console.log('Encrypted:', enc);
+    this.setState({ data: enc, });
+  }
+
+  _doDec() {
+    dec = decode('key123', enc);
+    console.log('Decrypted:', dec);
+    this.setState({ data: dec, });
+  }
 
   render() {
     return (
-      <View>
-        <Button block danger onPress={this._doEncDec.bind(this)}>
-          <Text >Click Here</Text>
+      <View style={
+        {
+          flex: 1,
+          justifyContent: 'center',
+          alignItems: 'center',
+          padding: 10,
+        }}>
+        <Label style={
+          {
+            paddingBottom: 10,
+            color: 'grey',
+          }}>Encrypt Decrypt using key: 'key123'</Label>
+        <Text style={
+          {
+            paddingBottom: 10,
+          }}>{this.state.data}</Text>
+        <Button block danger onPress={this._doEnc.bind(this)}
+          style={
+            {
+              paddingBottom: 10,
+            }}>
+          <Text >Do Encryption</Text>
+        </Button>
+        <Button block success onPress={this._doDec.bind(this)}
+          style={
+            {
+              paddingBottom: 10,
+            }}>
+          <Text >Do Decryption</Text>
         </Button>
       </View>
     );
