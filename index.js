@@ -1,3 +1,4 @@
+import _ from 'lodash';
 export const b64Table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
 
 export function encode(key, data) {
