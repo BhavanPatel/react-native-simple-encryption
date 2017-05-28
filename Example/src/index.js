@@ -5,7 +5,7 @@ import {
   Button,
   Label
 } from 'native-base';
-import { encode, decode } from 'react-native-simple-encryption';
+import { encrypt, decrypt } from 'react-native-simple-encryption';
 
 let enc = null;
 let dec = null;
@@ -18,13 +18,13 @@ class Main extends Component {
   }
 
   _doEnc() {
-    enc = encode('key123', this.state.data);
+    enc = encrypt('key123', this.state.data);
     console.log('Encrypted:', enc);
     this.setState({ data: enc, });
   }
 
   _doDec() {
-    dec = decode('key123', enc);
+    dec = decrypt('key123', enc);
     console.log('Decrypted:', dec);
     this.setState({ data: dec, });
   }

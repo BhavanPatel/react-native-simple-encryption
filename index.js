@@ -1,7 +1,7 @@
 import _ from 'lodash';
 export const b64Table = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
 
-export function encode(key, data) {
+export function encrypt(key, data) {
   xorEncrypt = (key, data) => {
     return _.map(data, function (c, i) {
       return c.charCodeAt(0) ^ key.charCodeAt(Math.floor(i % key.length));
@@ -34,7 +34,7 @@ export function encode(key, data) {
   return this.b64Encode(data);
 }
 
-export function decode(key, data) {
+export function decrypt(key, data) {
   b64Decode = (data) => {
       var o1, o2, o3, h1, h2, h3, h4, bits, i = 0,
           result = [];
