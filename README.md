@@ -1,6 +1,8 @@
 # react-native-simple-encryption
 [![NPM version](https://img.shields.io/npm/v/react-native-simple-encryption.svg?style=flat-square)](https://www.npmjs.com/package/react-native-simple-encryption)
 
+[![NPM](https://nodei.co/npm/react-native-simple-encryption.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-simple-encryption/)
+
 Simple XOR and base_64 encryption decryption for react-native
 
 ### Installation in project
