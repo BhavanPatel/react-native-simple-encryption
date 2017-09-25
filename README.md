@@ -1,5 +1,7 @@
 # react-native-simple-encryption
-[![NPM version](https://img.shields.io/npm/v/react-native-simple-encryption.svg?style=flat-square)](https://www.npmjs.com/package/react-native-simple-encryption)
+[![GitHub issues](https://img.shields.io/github/issues/BhavanPatel/react-native-simple-encryption.svg)](https://github.com/BhavanPatel/react-native-simple-encryption/issues)
+[![GitHub forks](https://img.shields.io/github/forks/BhavanPatel/react-native-simple-encryption.svg)](https://github.com/BhavanPatel/react-native-simple-encryption/network)
+[![GitHub stars](https://img.shields.io/github/stars/BhavanPatel/react-native-simple-encryption.svg)](https://github.com/BhavanPatel/react-native-simple-encryption/stargazers)
 
 [![NPM](https://nodei.co/npm/react-native-simple-encryption.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/react-native-simple-encryption/)
 
