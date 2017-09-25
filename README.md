@@ -1,4 +1,5 @@
 # react-native-simple-encryption
+[![npm version](https://badge.fury.io/js/react-native-simple-encryption.svg)](https://badge.fury.io/js/react-native-simple-encryption)
 [![GitHub issues](https://img.shields.io/github/issues/BhavanPatel/react-native-simple-encryption.svg)](https://github.com/BhavanPatel/react-native-simple-encryption/issues)
 [![GitHub forks](https://img.shields.io/github/forks/BhavanPatel/react-native-simple-encryption.svg)](https://github.com/BhavanPatel/react-native-simple-encryption/network)
 [![GitHub stars](https://img.shields.io/github/stars/BhavanPatel/react-native-simple-encryption.svg)](https://github.com/BhavanPatel/react-native-simple-encryption/stargazers)
